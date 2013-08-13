@@ -1,0 +1,30 @@
+{
+   "recipes": [
+       {
+          "id":0,
+          "title":"Cookies",
+          "description":"Delicious, crisp on the outside, chewy on the inside, oozing with chocolatey goodness cookies. The best kind.",
+          "ingredients":[
+             {
+                "amount":"1",
+                "amountUnits":"packets",
+                "ingredientName":"Chips Ahoy"
+             }
+          ],
+          "instructions":"1. Go buy a packet of Chips Ahoy\n2. Heat it up in the oven\n3. Enjoy warm cookies\n4. Learn how to bake cookies from somewhere else"
+       },
+       {
+           "id":1,
+           "title":"Ramen",
+           "description":"Ramen is a Japanese noodle dish. It consist of Chinese-style wheat noodles searved in a meat or fish-based broth.",
+           "ingredients":[
+           {
+               "amount":"1",
+               "amountUnits":"packets",
+               "ingredientName":"Noodles"
+           }
+           ],
+           "instructions":"boil noodle in chicken or beef broth."
+       }
+   ]
+}
