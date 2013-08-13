@@ -2,17 +2,17 @@ var app = angular.module('guthub', ['guthub.directives', 'guthub.services', 'fir
 
 app.config(function($routeProvider, $locationProvider) {
 
-    $routeProvider.when('guthub/', {
+    $routeProvider.when('/guthub', {
 
-        templateUrl:'guthub/views/list.html',
+        templateUrl:'/guthub/views/list.html',
         controller: 'ListCtrl'
 
-    }).when('guthub/edit/:recipeId', {
+    }).when('/guthub/edit/:recipeId', {
 
         templateUrl:'guthub/views/recipeForm.html',
         controller: 'EditCtrl'
 
-    }).when('guthub/view/:recipeId', {
+    }).when('/guthub/view/:recipeId', {
 
         templateUrl:'guthub/views/viewRecipe.html',
         controller: 'ViewCtrl'
