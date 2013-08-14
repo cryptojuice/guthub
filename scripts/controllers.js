@@ -4,22 +4,22 @@ app.config(function($routeProvider, $locationProvider) {
 
     $routeProvider.when('/', {
 
-        templateUrl:'guthub/views/list.html',
+        templateUrl:'/views/list.html',
         controller: 'ListCtrl'
 
     }).when('/edit/:recipeId', {
 
-        templateUrl:'guthub/views/recipeForm.html',
+        templateUrl:'/views/recipeForm.html',
         controller: 'EditCtrl'
 
     }).when('/view/:recipeId', {
 
-        templateUrl:'guthub/views/viewRecipe.html',
+        templateUrl:'/views/viewRecipe.html',
         controller: 'ViewCtrl'
 
     }).when('/new', {
 
-        templateUrl: 'guthub/views/recipeForm.html',
+        templateUrl: '/views/recipeForm.html',
         controller: 'NewCtrl'
 
     }).otherwise({redirectTo:'/'})
