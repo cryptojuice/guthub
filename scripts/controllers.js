@@ -12,7 +12,7 @@ app.config(function($routeProvider, $locationProvider) {
         templateUrl:'/guthub/views/recipeForm.html',
         controller: 'EditCtrl'
 
-    }).when('/guthub/view/:recipeId', {
+    }).when('guthub/view/:recipeId', {
 
         templateUrl:'/guthub/views/viewRecipe.html',
         controller: 'ViewCtrl'
