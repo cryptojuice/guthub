@@ -4,7 +4,7 @@ app.config(function($routeProvider, $locationProvider) {
 
     $routeProvider.when('/', {
 
-        templateUrl:'/views/list.html',
+        templateUrl:'views/list.html',
         controller: 'ListCtrl'
 
     }).when('/edit/:recipeId', {
