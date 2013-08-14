@@ -7,19 +7,19 @@ app.config(function($routeProvider, $locationProvider) {
         templateUrl:'/guthub/views/list.html',
         controller: 'ListCtrl'
 
-    }).when('guthub/edit/:recipeId', {
+    }).when('/guthub/edit/:recipeId', {
 
-        templateUrl:'guthub/views/recipeForm.html',
+        templateUrl:'/guthub/views/recipeForm.html',
         controller: 'EditCtrl'
 
-    }).when('guthub/view/:recipeId', {
+    }).when('/guthub/view/:recipeId', {
 
-        templateUrl:'guthub/views/viewRecipe.html',
+        templateUrl:'/guthub/views/viewRecipe.html',
         controller: 'ViewCtrl'
 
-    }).when('guthub/new', {
+    }).when('/guthub/new', {
 
-        templateUrl: 'guthub/views/recipeForm.html',
+        templateUrl: '/guthub/views/recipeForm.html',
         controller: 'NewCtrl'
 
     }).otherwise({redirectTo:'/'})
