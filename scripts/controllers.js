@@ -23,6 +23,8 @@ app.config(function($routeProvider, $locationProvider) {
         controller: 'NewCtrl'
 
     }).otherwise({redirectTo:'/'})
+
+    $locationProvider.html5Mode(true);
 });
 
 
